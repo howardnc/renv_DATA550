@@ -52,6 +52,7 @@ Once the files are in the desired location, confirm that *User A* can build the 
 	- If the above command returns `FALSE`, install the `renv` package using `install.packages('renv')`
 2. In an R console, use `setwd` and `getwd` to confirm that the current working directory in the R console is the project directory.
 3. Initialize the project library by running `renv::init()`
+You should not generally need to call activate() yourself as it's called automatically by init(), which is the best way to start using renv in a new project.
 4. Confirm that the project directory now includes the following files:
 	- `.Rprofile`
 	- `renv.lock`
