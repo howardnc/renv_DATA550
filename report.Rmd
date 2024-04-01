@@ -1,6 +1,6 @@
 ---
 title: Three sets of random numbers
-author: You
+author: Ruth Ma, Nicholas Howard
 output: html_document
 ---
 
